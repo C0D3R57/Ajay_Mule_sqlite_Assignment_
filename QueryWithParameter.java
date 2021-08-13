@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-    public class Query{
+    public class QueryWithParameter{
 		
 		
 	private Connection connect() {
@@ -44,7 +44,7 @@ import java.sql.Statement;
         }
     }
 	 public static void main(String[] args) {
-        	Query param = new Query();
+        	QueryWithParameter param = new QueryWithParameter();
         	param.Parameter();
     }
 
